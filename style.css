@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "leagie spartan", sans-serif;
+}
+#hero {
+  background: #908e8e;
+  padding: 100px 0;
+}
+.conteiner {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content span {
+  font-size: 24px;
+  color: #161515;
+  font-weight: 300;
+}
+.content h1 {
+  font-size: 250px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.content p {
+  font-size: 32px;
+  max-width: 575px;
+  font-weight: 100;
+  line-height: 155%;
+}
+.buttons {
+  display: flex;
+  margin-top: 60px;
+}
+.buttons button {
+  padding: 30px 73px;
+  border: none;
+  cursor: pointer;
+  font-size: 32px;
+}
+.black {
+  background: #e1dfdf;
+  color: white;
+}
+.white {
+  background: #fff;
+  padding: 30px 27px !important;
+}
+#hero2 {
+  background: #fff;
+  padding: 46px;
+}
+.conteiner {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.hero-content2 {
+  display: flex;
+  flex-direction: column;
+}
+.content2 span {
+  font-size: 24px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+}
+.content2 h1 {
+  font-size: 72px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  margin-left: 350px;
+  margin-top: 84px;
+  padding: 110px;
+  width: 417px;
+  height: 630px;
+  background-color: #edebeb;
+}
+.spans span {
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.text p {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 155%;
+  width: 510px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
